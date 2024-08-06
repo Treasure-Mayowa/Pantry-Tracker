@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@mui/material-nextjs": "^5.16.6",
+    "firebase": "^10.12.5"
+  }
+}
