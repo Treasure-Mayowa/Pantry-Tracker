@@ -13,6 +13,7 @@ export default function RecipeSuggest({ availableItems = [] }) {
     const getRecipes = async () => {
         if (availableItems.length !== 0) {
             setLoading(true)
+            setRecipes([])
             setError('')
             const items = availableItems.map(item => item.name).join(", ")
             
